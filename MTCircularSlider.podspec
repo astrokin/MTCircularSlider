@@ -8,15 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTCircularSlider'
-  s.version          = '0.2.8'
+  s.version          = '0.2.9'
   s.summary          = 'A circular slider control.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 A feature-rich circular slider control. You can tweak colors, shadows and angles.
 This widget tries to conform to UISlider both in naming and default style.
@@ -26,18 +19,10 @@ This widget tries to conform to UISlider both in naming and default style.
   s.screenshots     = 'http://raw.githubusercontent.com/EranBoudjnah/MTCircularSlider/screenshots/screenshots/Simulator%20Screen%20Shot%202%20Jun%202016%2C%2013.35.42.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Eran Boudjnah' => 'eranbou@gmail.com' }
-  s.source           = { :git => 'https://github.com/EranBoudjnah/MTCircularSlider.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/astrokin/MTCircularSlider.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.linkedin.com/in/eranboudjnah'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MTCircularSlider/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MTCircularSlider' => ['MTCircularSlider/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
